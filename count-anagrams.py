@@ -1,9 +1,6 @@
 class Solution:
-
-
 	def search(self,pat, txt):
-	    # code here
-	    c=0
+	c=0
         n = len(pat)
         pattern=sorted(pat)
         m = ''.join(pattern)
